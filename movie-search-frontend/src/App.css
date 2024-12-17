@@ -1,0 +1,44 @@
+/* App.css */
+.app-container {
+  background-image: url('./image/bg.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+h1 {
+  text-shadow: 2px 2px 4px rgba(94, 8, 179, 0.962);
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(235, 112, 112, 0.2);
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card button {
+  background-color: #638a63; /* Light green */
+  color: #fff;
+  border: none;
+}
+
+.card button:hover {
+  background-color: #76c776; 
+}
+
+.modal.show {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+em{
+  color: rgb(207, 51, 51);
+}
+
+@media (max-width: 768px) {
+  .card img {
+    height: 200px;
+  }
+}
